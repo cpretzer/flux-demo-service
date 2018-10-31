@@ -26,7 +26,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 		name := r.URL.Query().Get("u")
 
 		if name == "" {
-			name = "Go"
+			name = "Golang"
 		}
 
 
